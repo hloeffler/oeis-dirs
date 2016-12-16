@@ -1,6 +1,6 @@
 
-Create many dirs
-================
+map oeis data to many dirs
+==========================
 
 i toy around with http://oeis.org and try to map the data to a dir structure
 its get big very fast, so next try will be a [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace)
