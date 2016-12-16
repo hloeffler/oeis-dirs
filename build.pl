@@ -112,7 +112,7 @@ sub create_dir_and_files {
 
             make_path($root);
             foreach my $A ( @{ $data->{$node} } ) {
-                open( my $fh, '>', "$root/$A.txt" );
+                open( my $fh, '>', "$root/$A.md" );
                 print $fh "http://oeis.org/$A\n";
                 print $fh "\n";
                 print $fh $A_names->{$A} . "\n";
